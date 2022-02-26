@@ -5,7 +5,9 @@ You can scrape English course descriptions from [YTU Bologna page](http://www.bo
 
 ## Example Output
 
-+ This program writes the output to a markdown file ``output.md`` file by default. A Markdown file is in fact a plain text, but its syntax is compatible with HTML, as in this ``README.md`` file. You can see an example output below:
++ If you want to see a complete curriculum example, please take a look at these files: [example_output.pdf](./docs/example_output.pdf), [example_output.html](./docs/example_output.html).
+
++ This program writes the output to a markdown file ``output.md`` file by default. A Markdown file is in fact a plain text, but its syntax is compatible with HTML, as in this ``README.md`` file. You can see an example plain text output below:
 
 ```
 ----------------------------------------
@@ -24,8 +26,6 @@ History of Computers ; The Basics of Computer Science and Computer Engineering ;
 1. Students will understand fundamental underlying principles concepts of computer engineering.
 2. Students will understand how to design correct and efficient algorithms.
 3. Students will learn about the process of writing and debugging a program.
-4. Students will learn how to describe the devised algorithms as flowcharts.
-5. Students will be able to know different branches of computer engineering.
 
 ----------------------------------------
 
@@ -43,26 +43,23 @@ Physics and Measurement, Vectors, Motion in One Dimension, Motion in Two Dimensi
 1. Students would have up to date information, software, theoretical and practical knowledge on Physics. Moreover, they will be equipped with knowledge sufficiently to use Physics related resources.
 2. Students would acquire theoretical knowledge on subject of Physics theories.
 3. They could apply the theoretical knowledge gained in the field of Physics
-4. Students would be able to analyze the experimental results.
-5. They would acquire the ability to figure out the physical concepts and issues in the field of Physics through scientific methods and interprete them.
 
 ----------------------------------------
 ```
 
-+ You can easily convert this output to HTML or even pdf. For example, you can use [dillinger.io](dillinger.io) for this purpose, as shown below:
++ You can easily convert this output to HTML or even pdf. For this purpose, you can use [dillinger.io](dillinger.io) as shown below:
 
-![Screenshot from Dillinger.io](./docs/screenshot_from_dillinger_io "Screenshot from Dillinger.io")
-
+![Screenshot from Dillinger.io](./docs/screenshot_from_dillinger_io.png "Screenshot from Dillinger.io")
 
 ## How to Build
 
-+ If you are using a GNU/Linux operating system, you can directly build by running the following Bash command:
++ If you are using a GNU/Linux operating system, you can directly build by executing the following Bash command:
 
 ```bash
 chmod u+x ./build.sh && ./build.sh
 ```
 
-+ If you are not using a GNU/Linux operating system, please manually install dependencies in ``requirements.txt``. 
++ If you are not using a GNU/Linux operating system, please manually install dependencies in ``requirements.txt`` and make sure that your python and pip packages are up-to-date. 
 
 
 ## How to Run
@@ -86,7 +83,7 @@ chmod u+x ./build.sh && ./build.sh
 }
 ```
 
-+ If you are using a GNU/Linux operating system, you can directly run by running the following Bash command:
++ If you are using a GNU/Linux operating system, you can directly run by executing the following Bash command:
 
 ```bash
 chmod u+x ./run.sh && ./run.sh
